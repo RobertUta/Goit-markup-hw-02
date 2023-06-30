@@ -7,6 +7,13 @@
     --text-color: #757575;
 }
 
+.header{
+    width: 1600px;
+    height: 80px;
+    flex-shrink: 0;
+
+    background-color: var(--title-color);
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -24,35 +31,34 @@ body {
 
 /* Header section */
 
-.logo {
+.blue {
     color: var(--accent-color);
-  }
+}
 
-.header {
-    display: flex;
-    justify-content: center;
-    width: 1600px;
-    height: 80px;
-    flex-shrink: 0;
-    margin-top: 25px;
-    margin-right: 95px;
-    margin-bottom: 25px;
+.logo{
+    font-size: 26px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
 
 a {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
     color: var(--main-color);
-    margin-top: 32px;
-    margin-right: 50px;
-    margin-bottom: 32px;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 
     text-decoration: none;
 }  
+
+.inline{
+    display: inline-block;
+}
 
 .nav-list {
     color: var(--main-color);
@@ -62,8 +68,18 @@ a {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-    display: flex;
-    margin: 20px;
+    display: inline;
+    margin-right: 50px;
+
+}
+
+.first-studio{
+    margin-left: 95px;
+}
+
+.first-adress{
+    margin-left: 375px;
+    margin-right: 40px;
 }
 
 .current {
@@ -78,7 +94,7 @@ a {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-    
+
   }
   
 .link-contact:hover,
