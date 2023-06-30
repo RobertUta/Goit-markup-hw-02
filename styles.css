@@ -39,7 +39,7 @@ body {
     margin-bottom: 25px;
 }
 
-.header > a {
+a {
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -50,6 +50,8 @@ body {
     margin-top: 32px;
     margin-right: 50px;
     margin-bottom: 32px;
+
+    text-decoration: none;
 }  
 
 .nav-list {
@@ -86,11 +88,6 @@ body {
 
 ul{
     list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: var(--main-color);
 }
 
 .link-contact {
@@ -132,7 +129,7 @@ a {
     text-transform: uppercase;
 }
 
-.head > .button-first-page{
+.button-first-page{
     color: var(--title-color);
     text-align: center;
     font-size: 16px;
@@ -264,4 +261,33 @@ a {
     background: var(--background);
 }
 
+.adress-location{
+    color: #FFF;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+
+    display: flex;
+    width: 207px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.logo-footer{
+    color: var(--accent-color);
+    font-size: 26px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.text-logo{
+ color: var(--title-color);
+}
 
